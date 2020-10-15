@@ -11,7 +11,7 @@
 [![GitHub Stars][github-stars]][github-stars]
 [![Build Status][build-status]][build-status]
 
-Aplicação é uma plataforma  para encontrar orfanatos e casas de acolhimento institucional na sua cidade, visando facilitar o processo de ajuda e visitação à estes lugares. As instituições cadastram seus dados e informações sobre o processo de visitas, as pessoas acessam estes dados através da plataforma e se dirigem aos orfanatos.
+Aplicação é uma plataforma para encontrar orfanatos e casas de acolhimento institucional na sua cidade, visando facilitar o processo de ajuda e visitação à estes lugares. As instituições cadastram seus dados e informações sobre o processo de visitas, as pessoas acessam estes dados através da plataforma e se dirigem aos orfanatos.
 
 <p align="center">
   <img align="center" src="./.github/intro.png" alt="Happy" border="0">
@@ -34,7 +34,7 @@ Aplicação é uma plataforma  para encontrar orfanatos e casas de acolhimento i
 ## :computer: Tecnologias
 
 - Backend - [Node.js](https://nodejs.org/en/)
-- Frontend - [React](https://reactjs.org)
+- Web - [React](https://reactjs.org)
 - Mobile - [React Native](https://facebook.github.io/react-native/)
 
 ## :construction_worker: Instalação
@@ -53,11 +53,18 @@ git clone https://github.com/jeffeloy/happy.git
 2. Execute `npm install` para instalar as dependências;
 3. Execute `npm run dev` para iniciar o servidor.
 
-### :desktop_computer: Frontend
+### :desktop_computer: Web
 
 1. Para entrar na pasta digite `cd web`
 2. Execute `npm install` para instalar as dependências;
 3. Execute `npm start` para iniciar a aplicação;
+
+**Mapa - MapBox**
+
+1. Para o mapa funcionar no front web é necessário acessar o site [Mapbox](https://www.mapbox.com) e criar uma conta.
+2. Em seguida, após está logado na página inicial da sua conta copie seu Access_Token.
+3. Dentro da pasta web, duplique o arquivo .env.example e o renomeie para .env.
+4. Dentro do arquivo .env cole seu Access_Token onde está escrito "SEU ACCESS TOKEN DO MAPBOX".
 
 ### :iphone: Mobile
 
