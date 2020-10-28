@@ -54,7 +54,7 @@ function OrphanagesMap() {
             </Marker>
           </Map>
 
-         <Link to="" className="create-orphanage">
+         <Link to="/orfanatos/criar" className="create-orphanage">
 
            <FiPlus size={32} color="#FFF"/>
          </Link>
