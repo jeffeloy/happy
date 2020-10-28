@@ -47,7 +47,7 @@ function OrphanagesMap() {
               <Popup closeButton={false} minWidth={240} maxWidth={240} className="map-popup">
                 Lar Maria da Glória
 
-                <Link to="">
+                <Link to="/orfanatos/1">
                   <FiArrowRight size={20} color="#FFF"/>
                 </Link>
               </Popup>
